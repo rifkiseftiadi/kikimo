@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import Swal from "sweetalert2";
-import SkeletonCard from "../../components/SkeletonCard";
-import EmptyState from "../../components/EmptyState";
+import SkeletonCard from "@/components/SkeletonCard";
+import EmptyState from "@/components/EmptyState";
 
 export default function AdminOrdersPage() {
   const { data: session } = useSession();
