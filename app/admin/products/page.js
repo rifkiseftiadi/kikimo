@@ -5,8 +5,8 @@ import Link from "next/link";
 import Swal from "sweetalert2";
 import Image from "next/image";
 import { PencilIcon, TrashIcon, PlusIcon } from "@heroicons/react/24/outline";
-import SkeletonCard from "../../components/SkeletonCard";
-import EmptyState from "../../components/EmptyState";
+import SkeletonCard from "@/components/SkeletonCard";
+import EmptyState from "@/components/EmptyState";
 
 export default function AdminProductsPage() {
   const { data: session } = useSession();
